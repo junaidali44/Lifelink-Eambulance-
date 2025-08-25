@@ -58,7 +58,12 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="banner">
+      <div className="banner"
+        style={{
+  backgroundImage: "url('https://media.istockphoto.com/id/1484825206/photo/the-ambulance-toy-wooden-block-and-alarm-clock-on-blue-background-emergency-healthcare.jpg?s=612x612&w=0&k=20&c=j_TWJGTGjCx2F1jjQBilWUTlaUnk39GQ-h3pJTYROBM=')",
+  backgroundSize: "cover",
+  backgroundPosition: "center"
+}}>
         <div className="banner-background"></div>
 
 
